@@ -1,0 +1,12 @@
+[
+  { "name": "bug", "color": "d73a4a", "description": "Something does not work" },
+  { "name": "enhancement", "color": "1d76db", "description": "New capability or improvement" },
+  { "name": "confirmed", "color": "0e8a16", "description": "Reproduced by the maintainer" },
+  { "name": "planned", "color": "5319e7", "description": "Accepted, not started" },
+  { "name": "fixed", "color": "0e8a16", "description": "Fixed in a released version" },
+  { "name": "declined", "color": "6a737d", "description": "Will not be done" },
+  { "name": "needs-info", "color": "fbca04", "description": "Waiting for details from the reporter" },
+  { "name": "menu-bar", "color": "c5def5", "description": "Menu bar app" },
+  { "name": "hub", "color": "c5def5", "description": "Fleet hub" },
+  { "name": "cli-agent", "color": "c5def5", "description": "subnera-agent" }
+]

@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question or get help
+    url: https://discord.gg/NsHBXEPwcb
+    about: Questions and troubleshooting are answered faster in the Discord #help forum.
+  - name: Guides
+    url: https://subnera.com/guides
+    about: Troubleshooting and setup guides.
+  - name: Report a security vulnerability
+    url: https://subnera.com/.well-known/security.txt
+    about: Do not open a public issue for a vulnerability. Use the contact in security.txt.

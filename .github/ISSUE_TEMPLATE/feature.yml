@@ -1,0 +1,26 @@
+name: Feature request
+description: Suggest an improvement or a new capability.
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options: [Menu bar app, Fleet hub (app.subnera.com), CLI agent (subnera-agent), Website, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: What are you trying to do?
+      description: Describe the goal, not only the feature you imagine.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What you do today instead

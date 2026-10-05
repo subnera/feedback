@@ -1,0 +1,50 @@
+name: Bug report
+description: Something in subnera does not work as expected.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Check the [troubleshooting guide](https://subnera.com/guides/tah-troubleshooting) first.
+        Redact hotkeys, IPs and emails. Never paste a seed phrase, password, private key or install token.
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options: [Menu bar app, Fleet hub (app.subnera.com), CLI agent (subnera-agent), Website, Other]
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: subnera version
+      description: Menu bar app, About.
+      placeholder: "1.0.8"
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS and Mac model
+      placeholder: "macOS 15.1, M2 Air"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+  - type: textarea
+    id: log
+    attributes:
+      label: Log excerpt (redacted)
+      render: text
