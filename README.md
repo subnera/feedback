@@ -4,6 +4,7 @@ Bug reports, feature requests and release notes for **subnera**: fleet managemen
 IOTA Train at Home miners on macOS.
 
 - Website and download: https://subnera.com
+- Homebrew: `brew install --cask subnera/tap/subnera`
 - Guides: https://subnera.com/guides
 - Community: https://discord.gg/NsHBXEPwcb
 - Fleet hub: https://app.subnera.com
